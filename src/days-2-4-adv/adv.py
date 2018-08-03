@@ -1,5 +1,7 @@
 from room import Room
-
+import sys
+import os
+import calendar
 # Declare all the rooms
 
 room = {
@@ -33,15 +35,39 @@ room['narrow'].w_to = room['foyer']
 room['narrow'].n_to = room['treasure']
 room['treasure'].s_to = room['narrow']
 
-#
+attack = {
+    "throw":
+    "duck":
+    "dodge":
+    "attack":
+    "grab":
+}
+enemies = {
+"":""
+}
+
+cardinal = {
+    "":""
+}
+
+items: {
+ "":""
+}
+
+tasks: {
+    "":""
+}
+
 # Main
 #
 
-# Make a new player object that is currently in the 'outside' room.
-
+# Make a new player object that is currently in the 'outside' room. 
+ 
 # Write a loop that:
 #
 # * Prints the current room name
+'{''.format(location,desription, **kwargs)}'
+print(textwrap.fill)
 # * Prints the current description (the textwrap module might be useful here).
 # * Waits for user input and decides what to do.
 #
